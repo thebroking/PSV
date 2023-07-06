@@ -1,0 +1,135 @@
+.btn12 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #756666;
+    padding: 1px;
+    margin-right: 16px;
+  
+  }
+  .btn12:hover {
+    color: #756666;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 10px;
+    background: #ebcc84;
+    text-decoration: none;
+  }
+  
+  .call-to-action {
+    position: relative;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+
+  
+  .showcase .showcase-text {
+    padding: 3rem;
+  }
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+    background-image: url("location.png");
+  }
+  @media (max-width: 768px) {
+    .showcase .showcase-text {
+      padding: 1rem;
+    }
+    .showcase .showcase-img {
+      min-height: 15rem;
+    
+    }
+  }
+  
+  p{
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("k.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  header.masthead:before {
+    content: "";
+    position: absolute;
+    background-color: #1c375e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 2rem;
+  }
+  .k{
+    height: 27px;
+  }
+  .lead1 {
+    margin-top: 10px;
+  }
+  .lead123 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  .lead12 {
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+  }
+  .features-icons {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  .features-icons .features-icons-item {
+    max-width: 20rem;
+  }
+  .features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+  }
+  .features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+  }
+  
+  #imageSlider {
+    min-height: 30rem;
+    overflow: hidden;
+  }
+  
+  #imageSlider .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    #imageSlider {
+      min-height: 10rem;
+      overflow: hidden;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .k{
+      height: 45px;
+      margin-left: 10%;
+    }
+    header.masthead {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+    header.masthead h1, header.masthead .h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  .section12 {
+    margin: 0;
+    border: 5px solid #959090;
+    
+  }
+  
+  
